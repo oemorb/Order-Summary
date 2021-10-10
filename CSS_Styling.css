@@ -7,26 +7,57 @@
     text-align: center;
     margin: auto;
 }
+
+h1 {
+    font-weight: 900;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(31,40,79);
+}
+
 body {
-    border-radius: 2px;
     border: none;
     display: flex;
     flex-direction: column;
     background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: none;
+    background-size: contain;
 }
 
 p {
-    font-size: 16px;
-    font-weight: 500px;
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+    line-height: 30px;
+}
+
+
+.HeaderPic {
+    border-radius: 25px 25px 0px 0px;
 }
 
 .text {
-    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    width: 300;
+}
+
+.container {
+  width: 450px;
+  background-color: white; 
+  border-radius: 25px; 
+}
+
+.text {
+    padding: 10px 50px;
     border: none;
     display: flex
 }
 
+/*All buttons functions in order*/
 button {
+    display: block;
     border: none;
     border-radius: 10px;
     padding: 20px;
@@ -35,45 +66,70 @@ button {
     width: 80%;
 }
 
+button#Subscription {
+    background-color:hsl(225, 100%, 98%);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em auto;
+}
+
+
 #MusicNote {
-    padding-left: 0px;
-    float: left;
+    display: flex;
+    justify-content: left;
+}
+
+h2 #Annual {
+font-size: 18px;
+font-weight: 500;
 }
 
 #Change {
+    text-align:right;
     display: flex;
-    float: right;
+    justify-content: right;
+    font-weight: bold;
+    color: rgb(79, 72, 160);
+    text-decoration: underline;
 }
 
-.Cancel {
+#Change:hover {
+    color: rgb(115, 107, 207);
+    text-decoration: none;
+}
+
+button#Payment {
+    /*button*/
+    background-color: hsl(245, 75%, 52%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 10px hsl(228, 45%, 44%, 0.15);
+    
+    /*font*/
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+#Payment:hover {
+    opacity: 0.8;
+}
+button#Cancel {
     background-color: white;
-    display: inline-block;
+    display:flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: grey;
 }
 
-.Subscription {
-    background-color:hsl(225, 100%, 98%);
-    height: 80px;
+#Cancel:hover {
+    color: black;
 }
 
-
-h1 {
-    font-weight: 900;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.HeaderPic {
-    border-radius: 10px 10px 0px 0px;
-}
-
-.text {
-    display: flex;
-    flex-flow: row wrap;
-    width: auto;
-}
-
-.container {
-  width: 450px;
-  background-color: white; 
-  border-radius: 10px; 
+.attribution {
+    padding: 20px;
 }
