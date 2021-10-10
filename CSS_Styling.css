@@ -1,0 +1,79 @@
+@import url("https://fonts.google.com/specimen/Red+Hat+Display");
+
+
+/* All fonts */
+* {
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    margin: auto;
+}
+body {
+    border-radius: 2px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(225, 100%, 94%);
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.text {
+    width: 70%;
+    border: none;
+    display: flex
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+#MusicNote {
+    padding-left: 0px;
+    float: left;
+}
+
+#Change {
+    display: flex;
+    float: right;
+}
+
+.Cancel {
+    background-color: white;
+    display: inline-block;
+}
+
+.Subscription {
+    background-color:hsl(225, 100%, 98%);
+    height: 80px;
+}
+
+
+h1 {
+    font-weight: 900;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.HeaderPic {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.text {
+    display: flex;
+    flex-flow: row wrap;
+    width: auto;
+}
+
+.container {
+  width: 450px;
+  background-color: white; 
+  border-radius: 10px; 
+}
