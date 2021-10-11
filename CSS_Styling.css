@@ -22,7 +22,6 @@ h1 {
 
 /*Layout*/
 body {
-    margin-top: 60px;
     border: none;
     display: flex;
     justify-content: center;
@@ -54,10 +53,11 @@ p {
 }
 
 .container {
-  width: 400px;
-  background-color: white; 
-  border-radius: 25px;
-  flex-direction: row;
+    margin-top: 60px;
+    width: 400px;
+    background-color: white; 
+    border-radius: 25px;
+    flex-direction: row;
 }
 
 .text {
