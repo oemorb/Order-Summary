@@ -19,7 +19,10 @@ h1 {
 .Description {
     text-align: center;
 }
+
+/*Layout*/
 body {
+    margin-top: 60px;
     border: none;
     display: flex;
     justify-content: center;
@@ -27,7 +30,7 @@ body {
     flex-direction: column;
     background-color: hsl(225, 100%, 94%);
     background-image: url(images/pattern-background-desktop.svg);
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: contain;
 }
 
@@ -51,7 +54,7 @@ p {
 }
 
 .container {
-  width: 500px;
+  width: 400px;
   background-color: white; 
   border-radius: 25px;
   flex-direction: row;
@@ -92,11 +95,16 @@ button {
 .h2 {
     font-size: 18;
     font-weight: 500;
+    text-align: left;
 }
 
 .Plan {
     margin-left: 0px;
     text-align: left;
+}
+
+p.Price {
+    margin-right: 2px;
 }
 
 .Item4 {
@@ -149,8 +157,9 @@ button.Cancel {
 }
 
 /*To make responsive to mobile*/
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .container {
         width: 350px;
+        margin-top: 0px;
     }
 }
